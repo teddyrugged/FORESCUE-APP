@@ -16,7 +16,7 @@ const Footer = () => {
 
             <input type="submit" value="Submit"/>
         </form>
-        <footer className='wid--foot'>
+        <div className='wid--foot'>
             <div className='middle--man'>
                 <h2>FORESCUE</h2>
                 <h3>subscribe to get alert</h3>
@@ -29,16 +29,20 @@ const Footer = () => {
 
 
 
-            <div>
+            <footer>
                 <p>© 2022 All Rights Reserved by Forescue</p>
-                <li>Privacy Policy</li>
-                <li>Term of use</li>
-                <li>How it works</li>
-                <li>Tutorial</li>
-                <li>Site Map</li>
-            </div>
+                <div className='biz'>
+                    <a href = "/"> Privacy Policy</a>
+                    <a href = "/"> Term of use</a>
+                    <a href = "/"> How it works</a>
+                    <a href = "/"> Tutorial</a>
+                    <a href = "/"> Site Map</a>
+                </div>
 
-        </footer>
+
+            </footer>
+
+        </div>
     </div>
   )
 }
