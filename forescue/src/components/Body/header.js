@@ -1,28 +1,22 @@
 import React from 'react'
-import Device from '../images/Device.svg';
+import "./dashboard.css";
+
 
 const header = () => {
   return(
-  <>
-        <header>
-        <h2>FORESCUE</h2>
-        <div className='nav'>
-            <a href = "Guidlines"> Guidlines</a>
-            <a href = "/">How it works</a>
-            <a href = "Guidlines">Contacts</a>
-            <a href = "Guidlines">Join Us</a>
-        </div>
 
-    </header>
-    <main>
-        <div className='top'>
-            <h2>Disasters, Relief,Emergency</h2>
-            <p>Disaster Relief from Flooding, House burning, House Collapsing, Accidents in the home, workshop, factories, schools e.t.c., land slides, Electrical accidents, Hospital Disaster</p>
-            < Device />
-        </div>
+    <header>
+      <nav>
+        <h2 className='logo'>FORESCUE</h2>
+          <ul className='menu--items'>
+            <li><a href = "/"> Guidlines</a></li>
+            <li><a href = "/">How it works</a></li>
+            <li><a href = "/ ">Contacts</a></li>
+            <li><a href = "/">Join Us</a></li>
+          </ul>
+      </nav>
+   </header>
 
-    </main>
-  </>
 
   )
 }

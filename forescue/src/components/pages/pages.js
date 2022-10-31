@@ -1,13 +1,18 @@
 import React from 'react'
+// import './pages.css';
 import Footer from "../Body/footer"
-import Index from '../Body/dashboard'
+// import Index from '../Body/dashboard'
 import Header from '../Body/header'
+import Main from '../Body/main'
+import Main2 from '../Body/mainb'
 
 const page = () => {
   return (
-    <div>
+    <div className='overall'>
         <Header/>
-        <Index/>
+        <Main />
+        < Main2 />
+        {/* <Index/> */}
         <Footer/>
     </div>
   )

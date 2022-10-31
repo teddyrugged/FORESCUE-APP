@@ -5,7 +5,7 @@ import "./dashboard"
 const Footer = () => {
   return (
     <div>
-        <h1>Get in touch with us</h1>
+        {/* <h1>Get in touch with us</h1>
         <form >
             <h2>Send us a message</h2>
             <input type= "text" id="text" name="firstname"/>
@@ -15,9 +15,9 @@ const Footer = () => {
             <input type= "text" id="text" name="message"/>
 
             <input type="submit" value="Submit"/>
-        </form>
+        </form> */}
         <div className='wid--foot'>
-            <div className='middle--man'>
+            {/* <div className='middle--man'>
                 <h2>FORESCUE</h2>
                 <h3>subscribe to get alert</h3>
                 <form className='d--forms'>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <input className='input--2' type="submit" value="Subsribe"/>
                 </form>
                 <div class="hl"></div>
-            </div>
+            </div> */}
 
 
 
