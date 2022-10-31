@@ -6,19 +6,17 @@ const Footer = () => {
   return (
     <div>
 
-        <div className='wid--foot'>
+        <div >
             <br></br>
             <footer>
-                <p>© {new Date().getFullYear()} All Rights Reserved by Forescue</p>
-                <div className='biz'>
-                    <ul>
+                <p className='wid--foot'> © {new Date().getFullYear()} All Rights Reserved by Forescue</p>
+                    <ul className='ft--list'>
                         <li><a href = "/"> Privacy Policy</a></li>
                         <li><a href = "/"> Term of use</a></li>
                         <li><a href = "/"> How it works</a></li>
                         <li><a href = "/"> Tutorial</a></li>
                         <li><a href = "/"> Site Map</a></li>
                     </ul>
-                </div>
             </footer>
 
         </div>

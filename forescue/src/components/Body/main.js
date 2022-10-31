@@ -1,5 +1,5 @@
 import React from 'react'
-import Device from '../images/Device.svg';
+// import Device from '../images/Device.svg';
 
 export default function Main() {
   return (

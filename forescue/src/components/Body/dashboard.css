@@ -8,12 +8,13 @@
 
 nav{
   justify-content: space-between;
+  background-color:black;
+  padding: 10px;
 }
 nav, .menu--items {
   display: flex;
   align-items: center;
-  background-color:black;
-  padding: 10px;
+
 }
 
 .logo {
@@ -24,7 +25,7 @@ nav, .menu--items {
   list-style: none;
   margin-right: 2rem;
   /* justify-content: space-around; */
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
  .menu--items li {
@@ -73,5 +74,43 @@ line-height:22px;
 color: #FFFFFF;
 }
 
+/* <------->Body details<-------> */
+
 
 /* <------->Footer details<-------> */
+footer,.wid--foot, .ft--list {
+  display: flex;
+  align-items: center;
+}
+footer{
+  background-color: black;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 14px;
+
+}
+.wid--foot{
+  color: #FFFFFF;
+}
+.ft--list li{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 3rem;
+
+}
+.ft--list > li a{
+  color: #FFFFFF;
+  text-decoration: none;
+
+}
+a {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  color: #54b3d6;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+a:hover {
+  box-shadow: inset 100px 0 0 0 #54b3d6;
+  color: white;
+}
