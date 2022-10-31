@@ -75,7 +75,16 @@ color: #FFFFFF;
 }
 
 /* <------->Body details<-------> */
-
+.buttom--form{
+  display: flex;
+  justify-content: center;
+  color: #FFFFFF;
+  background-color: black;
+}
+.input--form{
+  display: flex;
+  align-content: center;
+}
 
 /* <------->Footer details<-------> */
 footer,.wid--foot, .ft--list {

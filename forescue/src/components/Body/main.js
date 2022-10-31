@@ -1,10 +1,9 @@
 import React from 'react'
 // import Device from '../images/Device.svg';
 
-export default function Main() {
+export const Main = () => {
   return (
-
-        <main>
+    <main>
             <h2 className='hum'>Disasters, <span className='bi'>Relief</span>,<span className='bu'>Emergency</span></h2>
             <div className='top'>
                 <p>Disaster Relief from Flooding, House burning, House Collapsing, Accidents in the home, workshop, factories, schools e.t.c., land slides, Electrical accidents, Hospital Disaster</p>
@@ -14,6 +13,8 @@ export default function Main() {
                 <span></span>
             </div>
         </main>
-
   )
 }
+
+export default Main
+//
